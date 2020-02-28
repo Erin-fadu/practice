@@ -1,0 +1,18 @@
+
+// 전체 channel 개수
+'channel_count' '2'
+
+// channel 당 LUN 개수
+'luns_per_channel' '4'
+
+// LUN 당 block 개수
+'blocks_per_lun' '32'
+
+// Block 당 page 개수
+'pages_per_block' '64'
+
+// page에서 data 영역의 크기 (byte 단위) 16KB
+'page_data_size' '16384'
+
+// page에서 spare 영역의 크기 (byte 단위) 4KB
+'page_spare_size' '2048'
